@@ -19,7 +19,7 @@ export const NavBar = () => {
         <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
             <Typography
                 as="li"
-                className="p-1 font-normal text-lg hover:text-primary duration-200"
+                className="p-1 font-normal text-lg hover:text-primary text-secondary duration-200"
             >
                 <Link to="/" className="flex items-center">
                     Home
@@ -27,7 +27,7 @@ export const NavBar = () => {
             </Typography>
             <Typography
                 as="li"
-                className="p-1 font-normal text-lg hover:text-primary duration-200"
+                className="p-1 font-normal text-lg hover:text-primary duration-200 text-secondary"
             >
                 <Link to="/" className="flex items-center">
                     Foods
@@ -35,7 +35,7 @@ export const NavBar = () => {
             </Typography>
             <Typography
                 as="li"
-                className="p-1 font-normal text-lg hover:text-primary duration-200"
+                className="p-1 font-normal text-lg hover:text-primary duration-200 text-secondary"
             >
                 <Link to="/dashboard" className="flex items-center">
                     Dashboard

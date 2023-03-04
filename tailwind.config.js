@@ -16,6 +16,10 @@ module.exports = withMT({
         third: "#e0ddca"
       }
     },
+    fontFamily: {
+      "poppins": ['Poppins', 'sans-serif'],
+      "varela": ['Varela Round', 'sans-serif']
+    }
   },
   plugins: [],
 })
